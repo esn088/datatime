@@ -1,0 +1,13 @@
+select {
+    height: 200px;
+    width: 300px;
+}
+option{ /*es aquí donde esta todo el desarrollo principal*/
+word-wrap: break-word; /* Declara que el texto deberá ser Wrap Break en */Word. 
+  white-space: -moz-pre-wrap; /* lo mismo que lo anterior pero para Firefox*/
+  white-space: pre-wrap;  /* lo mismo que lo anterior pero para el resto de los navegadores.*/
+  width:300px; /*Se establece un ancho en especifico*/
+}
+select option:nth-child(odd){
+background: lightcyan; /*Solo para darle estilo de fondo a los child en odd*/
+}
